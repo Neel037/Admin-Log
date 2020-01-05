@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header{
+	margin: 0px auto;
+	background: yellow;
+	height: 100px;
+
+}
+.home{
+	width: 5%;
+	float: left;
+}
+.home-img{
+	height: 100px;
+	width: 100%;
+}
+.head-text{
+	width: 85%;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 25px auto;
+
+}
+.signup{
+	width: 10%;
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	color: blue;
+	height: 100px;
+
+}
+
+
+.container{
+	width: 900px;
+	margin: 0px auto;
+}
+.login-section{
+	background: rgba(173,216,230,80%);
+
+}
+.login-section img{
+	margin: 0px auto;
+	padding: 20px;
+	display: block;
+	height: 250px;
+}
+
+.login-section h2, p{
+	text-align: center;
+	text-transform: capitalize;
+	color: white;
+	margin: 0px 0px 10px 10px;
+}
+
+.form-control{
+	width: 95%;
+	height: 35px;
+	padding: 5px;
+	margin: 0 auto 15px;
+	display: block;
+	border-radius: 8px;
+}
+
+.login-btn{
+	display: block;
+	margin: 0px auto;
+	background: red;
+	color: white;
+	padding: 8px 22px;
+	transition: 0.3s ease-in-out;
+	cursor: pointer;
+	border-radius: 10px;
+
+}
+.login-btn:hover{
+	box-shadow: 2px 2px 5px #fff;
+	color: green;
+}
